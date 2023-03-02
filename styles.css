@@ -1,10 +1,12 @@
 body{
     display: flex;
+    justify-content: space-around;
 }
 
-.card-light {
-    background-color:  #eee;
-    margin:2em;
+/*NO BEM EXAMPLES*/
+.card-light{
+    background-color: #eee;
+    margin: 2em;
     max-width: 300px;
     padding: 2em;
     box-shadow: 0 20px 30px -20px rgba(0,0,0,.4);
@@ -12,28 +14,39 @@ body{
 
 img{
     width: 100%;
-
 }
 
-.dark-light {
-    background-color: black;
-    margin:2em;
+.card-dark{
+    background-color: #332f2f;
+    margin: 2em;
     max-width: 300px;
+    padding: 2em;
     color: white;
     box-shadow: 0 20px 30px -20px rgba(0,0,0,.4);
 }
 
+/*GLOBAL OR SHARED STYLES*/
+
 .card{
     margin: 2em;
-    max-width:300px;
-    padding: 4px;em;
-    box-shadow: 0 20px 30px -20px rgba(0,0,0,.4);
+    max-width: 300px;
+    padding: 4em;
+    box-shadow: 0 10px 30px -10px rgba(0,0,0,.4);
 }
 
 .card--light{
-    background-color: yellow;
+    background-color: #eeec86;
 }
 
 .card--dark{
-    background-color: rgb(102, 94, 94);
+    background-color: #332f2f;
+    color: #fff;
 }
+
+/*SPACE COMBINATOR */
+
+/* .card p{gi
+    opacity: .8;
+} */
+
+/**SPECIFICITY WARS**/
